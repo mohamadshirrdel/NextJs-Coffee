@@ -1,40 +1,109 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# ☕ NextJs-Coffee
 
-## Getting Started
+A coffee shop website built with Next.js and React, featuring a coffee-themed design, reusable components, interactive sliders, and multiple pages.
 
-First, run the development server:
+## 📌 About The Project
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+**NextJs-Coffee** is a front-end project developed to practice building modern web interfaces with Next.js and React.
+
+The project includes a responsive coffee shop layout, reusable UI components, page navigation, and interactive sections for showcasing coffee products and services.
+
+## ✨ Features
+
+- 🏠 Home page with an interactive image slider
+- ☕ Coffee menu and product pages
+- 🧭 Navigation between multiple pages
+- 🛎️ Services section
+- 📅 Reservation page
+- 💬 Testimonials section
+- 🔎 Product search page
+- 📩 Contact page
+- 🧩 Reusable React components
+- 🎨 Custom CSS styling
+- 🖼️ Interactive sliders powered by Swiper
+- 🔌 Local REST API development with JSON Server
+
+## 🛠️ Tech Stack
+
+- **Next.js** — React framework
+- **React** — Component-based UI
+- **JavaScript** — Application logic
+- **CSS** — Styling and layouts
+- **Bootstrap** — UI styling utilities
+- **Swiper** — Interactive sliders
+- **Font Awesome** — Icons
+- **JSON Server** — Local REST API
+- **Git & GitHub** — Version control
+
+## 📂 Project Structure
+
+```text
+NextJs-Coffee/
+├── components/
+│   ├── modules/
+│   └── templates/
+├── data/
+│   └── db.json
+├── pages/
+│   ├── about/
+│   ├── contact/
+│   ├── menu/
+│   ├── product/
+│   ├── products/
+│   ├── reservation/
+│   ├── search/
+│   ├── services/
+│   └── testimonial/
+├── public/
+│   └── images/
+├── styles/
+├── package.json
+└── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## <h1>فارسی</h1>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+# 🇮🇷 معرفی پروژه به زبان فارسی
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## ☕ نکست کافی | وب‌سایت کافی‌شاپ
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+**NextJs-Coffee** یک پروژه وب با موضوع کافی‌شاپ است که با استفاده از Next.js و React توسعه داده شده است. هدف از ساخت این پروژه، تمرین توسعه رابط کاربری، ساخت کامپوننت‌های قابل استفاده مجدد و کار با ابزارهای مختلف فرانت‌اند بوده است.
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ✨ امکانات پروژه
 
-## Learn More
+- 🏠 صفحه اصلی با اسلایدر تصاویر
+- ☕ صفحات منو و محصولات کافی‌شاپ
+- 🧭 نوار ناوبری برای دسترسی به بخش‌های مختلف سایت
+- 🛎️ بخش معرفی خدمات
+- 📅 صفحه رزرو
+- 💬 بخش نظرات مشتریان
+- 🔎 صفحه جست‌وجوی محصولات
+- 📩 صفحه تماس با ما
+- 🎨 طراحی رابط کاربری با CSS
+- 🧩 استفاده از کامپوننت‌های قابل استفاده مجدد در React
+- 🖼️ استفاده از کتابخانه Swiper برای ساخت اسلایدرهای تعاملی
+- 🔌 استفاده از JSON Server برای شبیه‌سازی API محلی
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ تکنولوژی‌های استفاده‌شده
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+- **Next.js:** فریم‌ورک مبتنی بر React
+- **React:** توسعه رابط کاربری کامپوننت‌محور
+- **JavaScript:** پیاده‌سازی منطق برنامه
+- **CSS:** طراحی و استایل‌دهی صفحات
+- **Bootstrap:** استفاده از ابزارهای آماده طراحی رابط کاربری
+- **Swiper:** ایجاد اسلایدرهای تعاملی
+- **Font Awesome:** استفاده از آیکون‌ها
+- **JSON Server:** شبیه‌سازی API برای توسعه محلی
+- **Git و GitHub:** مدیریت نسخه و نگهداری کد پروژه
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🚀 راهنمای نصب و اجرا
 
-## Deploy on Vercel
+### پیش‌نیازها
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+ابتدا مطمئن شوید که Node.js و npm روی سیستم شما نصب هستند.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+### ۱. دریافت پروژه
+
+```bash
+git clone https://github.com/mohamadshirrdel/NextJs-Coffee.git
+```
